@@ -60,6 +60,9 @@
 		.anchor h4 {
 			font-size: 20px;
 		}
+		.contacto{
+			padding: 50px 50px;
+		}
 	}
 
 	@media (max-width: 858px){
