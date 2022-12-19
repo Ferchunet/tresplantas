@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+@media(min-width:800px){
+
+	#quienes-somos-desc{
+		margin-left:-5px;
+	}
+
+	.col-md-1 {
+-ms-flex: 0 0 8.333333%;
+flex: 0 0 8.333333%;
+max-width: 7.333333%!important;
+}
+	
+}
+.titulo_seccion{
+    font-family: "Roboto", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+    }
+
+    #quienessomos{padding-top: 91px;
+    }
+
+.quienes_titulo{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 500px;
+    /* margin: auto; */
+    color: black;
+    display: block;
+    position: relative;
+    /* bottom: 90px; */
+    /* left: 0; */
+
+    /* right: 0; */
+    text-align: center;
+    /* padding: 5px; */
+    width: 60%;
+position: relative;
+left: 20%;
+border-radius: 20px 20px ;
+box-shadow: 7px 7px rgb(97, 90, 90);
+align-self: start;
+
+    background-color: #8dd0e4;
+}
+
+.pagina{
+    /* margin-bottom: 65px; */
+    max-width: 1200px;
+    margin: auto auto;
+
+    padding-bottom:  50px;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto
+}
+
+quienes-somos-img{
+	display: inline-block;
+	vertical-align:  top;
+	margin-top: 0;
+}
+
+#quienes-somos-desc{
+	display: inline-block;
+	vertical-align:  top;
+	margin-bottom: 30px;
+	padding-top: 0;
+}
+
+#quienes-somos-desc p{
+	text-align: left !important;
+	color: #3C3B3B;
+}
+
+#quienes-somos-img img{
+	margin-top: 30px;
+	width: 100%;
+}
+
+.quienes-somos ul{
+	margin-top: 34px;
+	font-family: "roboto", sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	line-height: 39px;
+	font-weight:  700;
+	color: #3C3B3B;
+}
+
+.quienes-somos ul i{
+	color: #1b8fff;
+}
+
+.quienes-somos  ul a{
+	color: #3C3B3B;
+}
+
+/*@media (min-width: 768px){
+.pagina .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 49% !important;
+}
+
+}
+*/
+
+
+strong{
+	font-weight: 700;
+}
