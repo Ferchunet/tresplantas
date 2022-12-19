@@ -1,0 +1,497 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav{
+ background-color: rgb(127, 192, 242);
+ height: 80px;
+ width: 100%;
+}
+.logo{
+  height: 40px;
+
+}
+
+nav img {
+  width: 60px;
+  height: 60px;
+}
+.enlace {
+  position: absolute;
+  padding: 20px 50px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color:  rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px ;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+li a.active , li a:hover{
+  background: rgb(99, 144, 241);
+  transition: .5s;
+
+}
+.checkbtn {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+section {
+  width: 100%;
+ 
+ 
+  background-position: center center;
+}
+section video {
+    width: 100%;
+}
+
+video{
+  width: 100%;
+  height: 599px;
+ 
+}
+
+#conteiner {
+    width: 100%;
+}
+
+.carrusel
+{
+  width: 100%;
+
+}
+.carrusel .tercer img  {
+width: 100%;
+height: 180%;
+}
+.carrusel .carrusel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.carrusel .carrusel-item img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*obras*/
+
+element.style {
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, .articulo, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    transition: all 0.5s;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+body {
+    line-height: 1;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.banner{
+ width: 100%;}
+
+.banner img{
+  width: 100%;
+
+}
+
+.anner p{
+  font-family: "Roboto", sans-serif;
+  font-size: 75px;
+  font-weight: 700px;
+  /* margin: auto; */
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 90px;
+  /* left: 0; */
+  /* right: 0; */
+  text-align: center;
+  /* padding: 5px; */
+  width: 100%;
+}
+.titulo_seccion{
+	font-family: "Roboto", sans-serif;
+	font-size: 75px;
+	font-weight: 700;
+	color: white;
+	display: block;
+	position: absolute;
+	bottom: 30px;
+	text-align: center;
+	width: 100%;
+	}
+  #galeria {
+    max-width: 1500px;
+    margin: auto auto;
+    display: block;
+    text-align: center!important;
+    text-align-last: center;
+}
+/*OBRAS*/
+#galeria{
+  max-width: 1500px;
+  margin: auto auto;
+  display: block;
+  text-align: center!important;
+  text-align-last: center;
+}
+#galeria .item{text-align: center;margin: auto auto!important;width: 32%;display:inline-block;height: 200px;margin: 0.5%;margin-top: 17px!important;background-repeat: no-repeat;background-size: 100%;position: relative;/* padding: 0 30px 2px 0; */overflow: hidden;margin: 6px!important;/* box-shadow: 5px 6px 16px; */}
+
+/*#galeria article img{
+  width: 100%;
+}*/
+
+#galeria .item a {
+  width: 100%;
+  height: 100%;
+  left:0;
+  z-index: 999;
+  transition: .4s;
+  text-align: center;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  opacity: 0;
+  background-color:rgba(41,152,255,0.8);
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+
+#galeria .item a:hover{
+  opacity: 1;
+}
+
+#galeria .item a p{
+  display: none;
+  width:40px;
+  height: 40px;
+  background:black;
+  position: absolute;
+  left:0;bottom:-17px;
+  color:white;
+  font-size: 31px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+#galeria .item a:hover p{
+  display: block;
+  text-align:  center;
+  text-align-last: center;
+}
+
+#galeria .item a h5{font-size:21px;/* margin-top: 88px; */color:white;transition:all 0.8s;transform:scale(0.6);display: inline;position: absolute;vertical-align:  middle;}
+
+#galeria .item img{
+  width: 100%;
+  left: 0;
+  border-bottom: 0;
+  height: 100%;
+  position: absolute;
+  transition:all 0.7s;
+}
+#galeria .item:hover a h5{
+transform:scale(1);}
+
+#galeria .item:hover  img{
+  transform: scale(1.25);
+
+}
+/*PAG CONTACTO*/
+#formulario{
+  /* max-width: 760px; */
+  background-color: #a0c3de;
+  /* text-align: center; */
+  margin:auto;
+  margin-top: -3px;
+}
+
+.contacto label{
+  display:  block;
+  font-size:  15px;
+  margin-top: 30px;
+  font-family: "roboto", sans-serif;
+  text-align: left !important;
+  margin-bottom:  10px;
+}
+
+.contacto input{
+  text-align: left;
+  /* width: 100%; */
+  border:  none;
+  /* height: 34px; */
+  outline:  0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.contacto textarea{
+  text-align: left;
+  width: 100%;
+  border:  none;
+  height: 130px;
+  outline:  0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+/*
+
+input[type="radio"] {
+display:  inline-block;
+ -webkit-appearance: checkbox; Chrome, Safari, Opera
+text-align:  left;
+width: 0px;
+font-family:  "roboto",sans-serif;
+}
+
+.contacto input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+*/
+
+
+
+.box {
+  background-color: white;
+  display: inline-block;
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+  height: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.box i{
+      font-size:25px;
+      padding:3px;
+      display: none;
+      cursor: pointer;
+}
+
+
+input[type="text"], input[type="tel"], input[type="name"], input[type="email"], input[type="number"]{
+  text-align: left;
+  width: 100%;
+  border:  none;
+  height: 34px;
+  outline:  0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+input[type="submit"]{
+  display: block;
+  margin-top: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+  color: #efefef;
+  background-color: #00a7e6;
+}
+
+.contacto .row{
+  padding-top: 30px;
+  text-align: left;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+}
+input#filename {
+  width: 665px;
+}
+input#fakeBrowse {
+      background-color: #989898;
+      padding: 9px 20px;
+      font-weight: 500;
+      color: #404040;
+      margin-left: -3px;
+}
+img#flecha {
+  vertical-align: top;
+  width: 40px;
+  display: inline-block;
+  margin-left: -7px;
+  margin-top: -4px;
+}
+/*PAGINA*/
+.titulo_seccion{
+	font-family: "Roboto", sans-serif;
+	font-size: 75px;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+	display: block;
+	position: absolute;
+	bottom: 30px;
+	text-align: center;
+	width: 100%;
+	}
+
+	#quienessomos{padding-top: 91px;
+	}
+
+.quienes_titulo{
+	font-family: "Roboto", sans-serif;
+	font-size: 75px;
+	font-weight: 700px;
+	/* margin: auto; */
+	color: black;
+	display: block;
+	position: relative;
+	/* bottom: 90px; */
+	/* left: 0; */
+
+	/* right: 0; */
+	text-align: center;
+	/* padding: 5px; */
+	width: 100%;
+}
+
+.pagina{
+	/* margin-bottom: 65px; */
+	max-width: 1200px;
+	margin: auto auto;
+
+	padding-bottom:  50px;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto
+}
+
+
+.pagina p{
+	font-family: "roboto", sans-serif;
+	font-weight: 300;
+	margin-top: 25px;
+	line-height: 19px;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+/*CONTACTO*/
+.contacto{
+	max-width: 840px;
+	margin: auto;
+	padding-top:30px;
+	/* text-align: center; */
+	padding-bottom:50px;
+	color: #626262;
+	/* background-color: #efefef; */
+}
+
+.contacto p{
+	font-family: "roboto", sans-serif;
+	font-weight: 500;
+	margin-top: 50px;
+	line-height: 19px;
+	font-size: 15px;
+	color: #626262;
+	text-align: left;
+	letter-spacing: .5px;
+}
