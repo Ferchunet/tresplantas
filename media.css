@@ -44,6 +44,12 @@
 		.anchor h4 {
 			font-size: 20px;
 		}
+			.contacto{
+			padding: 50px 50px;
+		}
+		.quienes-somos {
+			padding: 20px 20px;
+		}
 	}
 	@media (max-width: 400px){
 		.banner img {
@@ -60,9 +66,14 @@
 		.anchor h4 {
 			font-size: 20px;
 		}
-		.contacto{
+				.contacto{
 			padding: 50px 50px;
 		}
+		.quienes-somos {
+			padding: 20px 20px;
+		}
+		
+		
 	}
 
 	@media (max-width: 858px){
