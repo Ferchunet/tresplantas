@@ -1,3 +1,81 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+/* Estilos para el menú en dispositivos móviles */
+@media (max-width: 880px) {
+    .checkbtn {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+  
+    nav ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        color: #fff; /* Cambia el color de texto según necesites */
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    #check:checked + ul {
+        display: block;
+    }
+}
+
+nav img {
+  width: 60px;
+  height: 60px;
+}
+.enlace {
+  position: absolute;
+  padding: 20px 50px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color:  rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px ;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+li a.active , li a:hover{
+  background: rgb(99, 144, 241);
+  transition: .5s;
+
+}
+.checkbtn {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
 
 section {
   width: 100%;
