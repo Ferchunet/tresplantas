@@ -1,4 +1,55 @@
+@media (max-width: 952px){
+	.enlace{
+	  padding-left: 20px;
+	
+	}
+	.contenedorsomos {
+	  width: 100%;
+	  text-align: center;
+	  font-size: 12px;
+	  position: relative;
+	 bottom: 200px;
+	 background-color: rgb(159, 103, 30);
+	right: 20%;
+	}
+	.contenedorsomos .quienes-somos{
+	  position: relative;
+	  right: 250px;
+	  background-color: aqua;
+	}
+#closebtn {
+    /* Estilos para el botón de cierre */
+}
+nav#navegador {
+    max-width: 100%!important;
+    overflow: hidden!important;
+    transition: all 0.5s;
+    position: relative!important;
+    right: 0;
+    width: 100%!important;
+    background: #EEFFFF;
+    padding: 0px 0 0 0 !important;
+    height:inherit;
+    height: 0;
+    z-index: 999;
+    min-height:  0;
+    display: flex;
+    flex-direction: column;
+}
 
+	
+	
+	.contenedorsomos{
+
+		width: 100%;
+	}
+	
+	nav ul li a{
+	  font-size: 16px;
+	}
+	
+	
+	}
 @media (max-width: 952px){
 	.enlace{
 	  padding-left: 20px;
