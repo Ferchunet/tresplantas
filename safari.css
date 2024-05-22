@@ -25,6 +25,7 @@ body {
 .nav-links ul {
     margin: 0;
     padding: 0;
+    display: flex; /* Añadir */
 }
 
 .nav-links li {
@@ -63,10 +64,14 @@ body {
 
     .nav-active {
         display: flex;
+        flex-direction: column; /* Añadir */
+        align-items: center; /* Añadir */
     }
 
     .nav-active ul {
         margin-top: 20px;
+        flex-direction: column; /* Añadir */
+        align-items: center; /* Añadir */
     }
 
     .nav-active li {
