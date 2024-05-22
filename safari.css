@@ -14,6 +14,46 @@ nav{
   height: 40px;
 
 }
+/* Estilos para el botón de hamburguesa */
+.checkbtn {
+    display: none;
+}
+
+/* Estilos para el menú en dispositivos móviles */
+@media (max-width: 880px) {
+    .checkbtn {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav ul {
+        display: none;
+        position: fixed;
+        top: 60px; /* Ajusta la posición según necesites */
+        right: 0;
+        width: 100%;
+        background-color: #333; /* Cambia el color de fondo según necesites */
+        padding: 20px;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        color: #fff; /* Cambia el color de texto según necesites */
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    #check:checked + ul {
+        display: block;
+    }
+}
 
 nav img {
   width: 60px;
