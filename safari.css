@@ -25,11 +25,13 @@ body {
 .nav-links ul {
     margin: 0;
     padding: 0;
-    display: flex; /* Añadir */
+    display: flex;
+    flex-direction: column; /* Cambiar a columna */
+    align-items: center; /* Centrar elementos */
 }
 
 .nav-links li {
-    margin-right: 20px;
+    margin-bottom: 10px; /* Espacio entre elementos */
 }
 
 .nav-links li a {
@@ -52,8 +54,19 @@ body {
 @media screen and (max-width: 768px) {
     .nav-links {
         display: none;
-        flex-direction: column;
-        align-items: center;
+        position: absolute; /* Ajustar posición */
+        top: 100%; /* Ajustar posición */
+        left: 50%; /* Ajustar posición */
+        transform: translateX(-50%); /* Ajustar posición */
+        background: #f9f9f9; /* Añadir */
+        padding: 10px; /* Añadir */
+        border-radius: 5px; /* Añadir */
+    }
+
+    .nav-links.active {
+        display: flex; /* Cambiar a flex */
+        flex-direction: column; /* Añadir */
+        align-items: center; /* Añadir */
     }
 
     .burger {
@@ -64,14 +77,14 @@ body {
 
     .nav-active {
         display: flex;
-        flex-direction: column; /* Añadir */
-        align-items: center; /* Añadir */
+        flex-direction: column;
+        align-items: center;
     }
 
     .nav-active ul {
         margin-top: 20px;
-        flex-direction: column; /* Añadir */
-        align-items: center; /* Añadir */
+        flex-direction: column;
+        align-items: center;
     }
 
     .nav-active li {
