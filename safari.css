@@ -6,87 +6,67 @@
     list-style: none;
 }
 
-/* Estilos para el menú en dispositivos móviles */
-@media (max-width: 880px) {
-    .checkbtn {
-        display: block;
-        cursor: pointer;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-
-    nav ul {
-        display: none;
-        position: fixed;
-        top: 80px;
-        right: 0;
-        width: 100%;
-        background-color: #333;
-        padding: 20px;
-    }
-
-    nav ul li {
-        text-align: center;
-        margin: 10px 0;
-    }
-
-    nav ul li a {
-        color: #fff;
-        font-size: 18px;
-        text-decoration: none;
-    }
-
-    #check:checked + ul {
-        display: block;
-    }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-/* Agrega los estilos del botón de hamburguesa */
-.checkbtn {
-    font-size: 30px;
-    color: #000;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
     cursor: pointer;
-    display: none;
 }
 
-#check {
-    display: none;
+.line1, .line2, .line3 {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
 }
 
-/* Estilos para el menú en dispositivos móviles */
-@media (max-width: 880px) {
-    .checkbtn {
-        display: block;
-    }
-
-    nav ul {
+@media screen and (max-width: 768px) {
+    .nav-links {
         display: none;
-        position: fixed;
-        top: 80px;
-        right: 0;
-        width: 100%;
-        background-color: #333;
-        padding: 20px;
     }
 
-    nav ul li {
-        text-align: center;
+    .burger {
+        display: flex;
+    }
+
+    .nav-active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-active li {
         margin: 10px 0;
     }
-
-    nav ul li a {
-        color: #fff;
-        font-size: 18px;
-        text-decoration: none;
-    }
-
-    #check:checked + ul {
-        display: block;
-    }
 }
+
+
+
 
 /* Otros estilos restantes */
 /* ... */
