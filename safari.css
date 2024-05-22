@@ -11,7 +11,6 @@ body {
 }
 
 .container {
-    color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +54,7 @@ body {
 @media screen and (max-width: 768px) {
     .nav-links {
         display: none;
-        position: absolute; /* Ajustar posición */
+        position: absolute;
         top: 100%; /* Ajustar posición */
         left: 50%; /* Ajustar posición */
         transform: translateX(-50%); /* Ajustar posición */
@@ -93,28 +92,6 @@ body {
     }
 }
 
-/* Otros estilos restantes */
-/* ... */
-
-nav img {
-    width: 60px;
-    height: 60px;
-}
-
-.enlace {
-    position: absolute;
-    padding: 20px 50px;
-}
-
-nav ul {
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
 }
 
 nav ul li a {
