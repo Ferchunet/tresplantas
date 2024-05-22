@@ -1,151 +1,148 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav{
+ background-color: rgb(127, 192, 242);
+ height: 80px;
+ width: 100%;
+}
+.logo{
+  height: 40px;
+
 }
 
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+nav img {
+  width: 60px;
+  height: 60px;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.enlace {
+  position: absolute;
+  padding: 20px 50px;
 }
-
-.nav-links {
-    display: flex;
-    list-style-type: none;
+nav ul {
+  float: right;
+  margin-right: 20px;
 }
-
-.nav-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex; /* Añadir */
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
-
-.nav-links li {
-    margin-right: 20px;
+nav ul li a {
+  color:  rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px ;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+li a.active , li a:hover{
+  background: rgb(99, 144, 241);
+  transition: .5s;
 
-.nav-links li a {
-    text-decoration: none;
-    color: black;
 }
-
-.burger {
-    display: none;
-    cursor: pointer;
+.checkbtn {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
-
-.line1, .line2, .line3 {
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 5px;
+#check{
+  display: none;
 }
-
-@media screen and (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .burger {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .nav-active {
-        display: flex;
-        flex-direction: column; /* Añadir */
-        align-items: center; /* Añadir */
-    }
-
-    .nav-active ul {
-        margin-top: 20px;
-        flex-direction: column; /* Añadir */
-        align-items: center; /* Añadir */
-    }
-
-    .nav-active li {
-        margin: 10px 0;
-    }
+section {
+  width: 100%;
+ 
+ 
+  background-position: center center;
 }
-
-section,
 section video {
     width: 100%;
 }
 
-video {
-    width: 100%;
-    height: 599px;
+video{
+  width: 100%;
+  height: 599px;
+ 
 }
 
-#carrusel,
-.carrusel .carrusel-item,
-.carrusel .carrusel-item img {
-    width: 100%;
-    height: 100%;
-}
-
-.banner img {
+#conteiner {
     width: 100%;
 }
 
-.banner p {
-    font-family: "Roboto", sans-serif;
-    font-size: 75px;
-    font-weight: 700;
-    color: white;
-    display: block;
-    position: absolute;
-    bottom: 90px;
-    text-align: center;
-    width: 100%;
+.carrusel
+{
+  width: 100%;
+
+}
+.carrusel .tercer img  {
+width: 100%;
+height: 180%;
+}
+.carrusel .carrusel-item {
+  width: 100%;
+  height: 100%;
 }
 
-.titulo_seccion {
-    font-family: "Roboto", sans-serif;
-    font-size: 75px;
-    font-weight: 700;
-    color: white;
-    display: block;
-    position: absolute;
-    bottom: 30px;
-    text-align: center;
-    width: 100%;
+.carrusel .carrusel-item img{
+  width: 100%;
+  height: 100%;
 }
 
-#galeria {
-    max-width: 1500px;
-    margin: auto;
-    display: block;
-    text-align: center;
+
+
+/*obras*/
+
+element.style {
 }
 
-#galeria .item {
-    text-align: center;
-    margin: auto;
-    margin-top: 17px;
-    width: 32%;
-    display: inline-block;
-    height: 200px;
-    margin: 0.5%;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, .articulo, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
     position: relative;
-    overflow: hidden;
-    margin: 6px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    transition: all 0.5s;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+body {
+    line-height: 1;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
 #galeria .item a {
     width: 100%;
     height: 100%;
