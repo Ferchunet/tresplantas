@@ -5,7 +5,6 @@
     text-decoration: none;
     list-style: none;
 }
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -23,6 +22,11 @@ body {
     list-style-type: none;
 }
 
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-links li {
     margin-right: 20px;
 }
@@ -34,7 +38,6 @@ body {
 
 .burger {
     display: none;
-    flex-direction: column;
     cursor: pointer;
 }
 
@@ -48,25 +51,28 @@ body {
 @media screen and (max-width: 768px) {
     .nav-links {
         display: none;
+        flex-direction: column;
+        align-items: center;
     }
 
     .burger {
         display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 
     .nav-active {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+    }
+
+    .nav-active ul {
+        margin-top: 20px;
     }
 
     .nav-active li {
         margin: 10px 0;
     }
 }
-
-
-
 
 /* Otros estilos restantes */
 /* ... */
