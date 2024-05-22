@@ -6,3 +6,7 @@ $(document).ready(function() {
 
 
 
+function nav_play() {
+    // Aquí puedes agregar cualquier funcionalidad adicional que necesites al hacer clic en un enlace del menú
+}
+
